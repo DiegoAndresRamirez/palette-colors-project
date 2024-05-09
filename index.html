@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header-id">
+        <nav class="SideBar" id="sidebar">
+            <div class="logo-titulo" id="logo-titulo-id">
+                <div class="logo">
+                    <img src="./LOGIN/login-06/assets/coding-256.webp" alt="logo">
+                </div>
+                <div class="titulo">
+                    <h1>
+                        RiwiApp
+                    </h1>
+                </div>
+            </div>
+            <div class="perfil" id="perfil-id">
+                <div class="imagen-perfil">
+                    <img src="./profile-256.webp" alt="perfil">
+                </div>
+                <div class="nombre">
+                    <h2>
+                        Diego Mejias
+                    </h2>
+                </div>
+            </div>
+            <div class="navigation" id="navigation-id">
+                <input type="text" class="barra">
+                <input type="submit" value="🔍" class="boton">
+            </div>
+            <div class="links1">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Widgets</a></li>
+                    <li><a href="#">Layout</a></li>
+                    <li><a href="#">Charts</a></li>
+                    <li><a href="#">UI Elements</a></li>
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Tables</a></li>
+                </ul>
+            </div>
+            <div class="links2">
+                <div class="titulo">
+                    <h2>EXAMPLES</h2>
+                </div>
+                <ul>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Kanban Board</a></li>
+                    <li><a href="#">MailBox</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Extras</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </div>
+            <div class="links3">
+                <div class="titulo">
+                    <h2>MICELLANEOUS</h2>
+                </div>
+                <ul>
+                    <li><a href="#">Tabbed IFrame Plugin</a></li>
+                    <li><a href="#">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="links4">    
+                <div class="titulo">
+                    <h2>
+                        MULTILEVEL EXAMPLE
+                    </h2>
+                </div>
+                <ul>
+                    <li><a href="#">Level 1</a></li>
+                    <li><a href="#">Level 2</a></li>
+                    <li><a href="#">Level 3</a></li>
+                </ul>
+            </div>
+            <div class="links5">
+                <div class="titulo">
+                    <h2>
+                        LABELS
+                    </h2>
+                </div>
+                <ul>
+                    <li><a href="#">Important</a></li>
+                    <li><a href="#">Warning</a></li>
+                    <li><a href="#">Informational</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-id">
+        <section class="barra-busqueda">
+            <div class="boton-sidebar">
+                <button onclick="toggleSidebarWidth()"><img src="./icon-menu.webp" alt="imagen"></button>
+            </div>
+            <div class="input-barra">
+                <input type="text" placeholder="buscar cursos..." class="input-main">
+                <input type="submit" value="🔍" class="input-lupa">
+            </div>
+            <div class="boton-paletas">
+                <button class="boton-paleta-dado" id="boton-paleta">🎲</button>
+                <div class="dropdown-content hidden">
+                    <ul>
+                        <li><a href="#">color-pallete-base</a></li>
+                        <li><a href="#">color-pallete-purpura</a></li>
+                        <li><a href="#">color-pallete-azul</a></li>
+                        <li><a href="#">color-pallete-purpura-claro</a></li>
+                        <li><a href="#">color-pallete-mixtos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="login">
+                <button><a href="./LOGIN/login-06/login.html" target="_blank">Iniciar Sesion</a></button>
+            </div>
+        </section>
+        <section class="Buttons-languages">
+            <div class="button-css">
+                <div class="arriba">
+                    <div class="texto">
+                        <h1>
+                            CSS
+                        </h1>
+                        <p>
+                            25%
+                        </p>
+                    </div>
+                    <div class="imagen-button">
+                        <img src="./css.png" alt="css">
+                    </div>
+                </div>
+                <div class="progress" style="--wth:25%"></div>
+            </div>
+            <div class="button-html">
+                <div class="arriba">
+                    <div class="texto">
+                        <h1>
+                            HTML
+                        </h1>
+                        <p>
+                            50%
+                        </p>
+                    </div>
+                    <div class="imagen-button">
+                        <img src="./html.png" alt="html">
+                    </div>
+                </div>
+                <div class="progress" style="--wth:50%"></div>
+            </div>
+            <div class="button-python">
+                <div class="arriba">
+                    <div class="texto">
+                        <h1>
+                            PYTHON
+                        </h1>
+                        <p>
+                            75%
+                        </p>
+                    </div>
+                    <div class="imagen-button">
+                        <img src="./python.webp" alt="python">
+                    </div>
+                </div>
+                <div class="progress" style="--wth:75%"></div>
+            </div>
+            <div class="button-js">
+                <div class="arriba">
+                    <div class="texto">
+                        <h1>
+                            JAVASCRIPT
+                        </h1>
+                        <p>
+                            99%
+                        </p>
+                    </div>
+                    <div class="imagen-button">
+                        <img src="./js.webp" alt="js">
+                    </div>
+                </div>
+                <div class="progress" style="--wth:99%"></div>
+            </div>
+        </section>
+        <section class="Welcome">
+            <div class="saludo">
+                <h1>
+                    <span>Bienvenido Usuario!</span>, esto es un ejemplo, elige la ruta que mas se adapte a tus necesidades!
+                </h1>
+                <div class="buttons-rutas">
+                    <div class="button-backend">
+                        <div class="arriba">
+                            <div class="texto">
+                                <h1>
+                                    BACKEND
+                                </h1>
+                                <p>
+                                    Learn Fast
+                                </p>
+                            </div>
+                            <div class="imagen-button">
+                                <img src="./backend.webp" alt="backend">
+                            </div>
+                        </div>
+                        <div class="abajo">
+                            <button class="boton-backend"><a href="#">More Info 🔍</a></button>
+                        </div>
+                    </div>
+                    <div class="button-frontend">
+                        <div class="arriba">
+                            <div class="texto">
+                                <h1>
+                                    FRONTEND
+                                </h1>
+                                <p>
+                                    Learn Fast
+                                </p>
+                            </div>
+                            <div class="imagen-button">
+                                <img src="./frontend.png" alt="frontend">
+                            </div>
+                        </div>
+                        <div class="abajo">
+                            <button class="boton-frontend"><a href="#">More Info 🔍</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Languages">
+            <div class="saludo">
+                <h1>
+                    ¡Actualmente tenemos <span>4</span> lenguajes de programacion para que aprendas en nuestra plataforma!
+                </h1>
+            </div>
+            <div class="cards">
+                <div class="card-html">
+                    <img src="./html-card.png" alt="HTML">
+                    <div class="contenido">
+                        <h1>
+                            HTML con RIWI
+                        </h1>
+                        <p>
+                            ¡Tenemos un curso completo de 0 a experto sobre el lenguaje de programacion HTML, aprenderas mediante juegos interactivos y didacticos para ofrecerte una experiencia divertida y amena!
+                        </p>
+                    </div>
+                </div>
+                <div class="card-css">
+                    <img src="./css-card.jpg" alt="CSS">
+                    <div class="contenido">
+                        <h1>
+                            CSS con RIWI
+                        </h1>
+                        <p>
+                            ¡Tenemos un curso completo de 0 a experto sobre el lenguaje de programacion CSS, aprenderas mediante juegos interactivos y didacticos para ofrecerte una experiencia divertida y amena!
+                        </p>
+                    </div>
+                </div>
+                <div class="card-js">
+                    <img src="./JavaScript-card.jpg" alt="CSS">
+                    <div class="contenido">
+                        <h1>
+                            JavaScript con RIWI
+                        </h1>
+                        <p>
+                            ¡Tenemos un curso completo de 0 a experto sobre el lenguaje de programacion JavaScript, aprenderas mediante juegos interactivos y didacticos para ofrecerte una experiencia divertida y amena!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="app.js"></script>
+</html>
